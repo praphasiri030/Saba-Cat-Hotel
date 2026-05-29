@@ -10,11 +10,11 @@
 
 ## Project Overview
 
-ระบบ **Saba Cat Hotel** เป็นเว็บแอปพลิเคชันสำหรับบริหารจัดการการจองโรงแรมแมวแบบครบวงจร ที่ช่วยให้เจ้าของแมวสามารถค้นหาห้องพักที่ว่าง จองห้องพัก และชำระเงินออนไลน์ได้สะดวกมากยิ่งขึ้น พร้อมระบบหลังบ้านสำหรับผู้ดูแลที่ช่วยจัดการข้อมูลการจอง การตรวจสอบการชำระเงิน และการสรุปรายงานต่าง ๆ ได้อย่างมีประสิทธิภาพ
+ระบบ **Saba Cat Hotel** เป็นเว็บแอปพลิเคชันสำหรับบริหารจัดการการจองโรงแรมแมวแบบครบวงจร ที่ช่วยให้เจ้าของแมวสามารถค้นหาห้องพักที่ว่าง จองห้องพัก และชำระเงินออนไลน์ได้สะดวกมากยิ่งขึ้น พร้อมระบบหลังบ้านสำหรับผู้ดูแลที่ช่วยจัดการข้อมูลการจอง การตรวจสอบการชำระเงิน และการสรุปรายงานต่าง ๆ
 
 The **Saba Cat Hotel** system was developed to improve traditional cat hotel management processes that relied on manual records and chat-based communication, which often caused booking conflicts and calculation errors.
 
-This project provides a complete web-based reservation and management system that allows customers to search available rooms, make reservations, upload payment slips, and manage booking information conveniently. The system also includes an admin dashboard for booking management, payment verification, refund processing, and business analytics.
+This project provides a complete web-based reservation and management system that allows customers to search available rooms, make reservations, upload payment slips, and manage booking information conveniently. The system also includes an admin dashboard for booking management, payment verification, refund processing, revenue summaries, and reservation statistics.
 
 ---
 
@@ -23,17 +23,14 @@ This project provides a complete web-based reservation and management system tha
 -  **Real-time Room Availability Search**  
   ค้นหาห้องว่างแบบเรียลไทม์ตามวันเช็กอินและเช็กเอาท์ พร้อมป้องกันการจองซ้ำ
 
--  **Google Authentication**  
-  รองรับการเข้าสู่ระบบผ่าน Google Login และ Email Authentication
-
 -  **1-Hour Payment Deadline**  
   จำกัดเวลาการชำระเงินมัดจำภายใน 1 ชั่วโมงหลังการจอง หากเกินเวลาระบบจะยกเลิกอัตโนมัติ
 
 -  **Automated Refund Calculation**  
   คำนวณอัตราการคืนเงินอัตโนมัติตามนโยบายของโรงแรม
 
--  **Admin Dashboard & Analytics**  
-  สรุปรายงานรายรับ ยอดจอง และสถิติการยกเลิกในรูปแบบกราฟ
+-  **Admin Dashboard & Reservation Reports**  
+  แสดงข้อมูลสรุปยอดการจอง รายรับ การยกเลิก และสถิติการใช้งานระบบในรูปแบบกราฟและรายงาน
 
 -  **Digital Receipt & Check-in System**  
   รองรับการเช็กอิน-เช็กเอาท์ พร้อมออกใบเสร็จดิจิทัล
@@ -65,17 +62,8 @@ This project provides a complete web-based reservation and management system tha
 - จัดการคำร้องขอคืนเงินและอัปโหลดหลักฐานการคืนเงิน
 - เพิ่ม แก้ไข และลบข้อมูลห้องพัก
 - จัดการระบบเช็กอิน-เช็กเอาท์และออกใบเสร็จดิจิทัล
-- ดูสรุปรายงานและสถิติการใช้งานระบบ
+- ดูสรุปรายงานและสถิติการจอง
 
----
-
-## Room Packages
-
-| Room Type     | Room Size          | Maximum Cats | Price / Day |
-| ------------- | ------------------ | ------------ | ----------- |
-| Standard Room | 160 × 125 × 70 cm  | 1 Cat        | 300 THB     |
-| Superior Room | 108 × 150 × 180 cm | 2 Cats       | 400 THB     |
-| Deluxe Room   | 185 × 112 × 220 cm | 4 Cats       | 600 THB     |
 
 ---
 
